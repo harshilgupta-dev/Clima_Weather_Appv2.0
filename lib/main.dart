@@ -10,8 +10,10 @@ import 'screen/splash_screen.dart';
    @override
    Widget build(BuildContext context) {
      return MaterialApp(
-       home: SplashScreen();
-     );
+       home: Scaffold(
+         body: SplashScreen(),
+        ),
+       );
    }
  }
  
